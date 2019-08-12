@@ -1,0 +1,35 @@
+{
+  "name": "pern-todo-list",
+  "version": "1.0.0",
+  "description": "PostgreSQL Express React Node with Knex Todo List",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mojaray2k/pern-todo-list.git"
+  },
+  "keywords": [
+    "PostgreSQL",
+    "Express",
+    "React",
+    "Node",
+    "Knex"
+  ],
+  "author": "Amen Ra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mojaray2k/pern-todo-list/issues"
+  },
+  "homepage": "https://github.com/mojaray2k/pern-todo-list#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "knex": "^0.19.1",
+    "pg": "^7.12.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
